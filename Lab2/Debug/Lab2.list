@@ -653,8 +653,8 @@ HAL_TIM_Base_Start_IT(&htim2);
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-setTimer1(50);
- 8000540:	2032      	movs	r0, #50	; 0x32
+setTimer1(25);
+ 8000540:	2019      	movs	r0, #25
  8000542:	f000 f91f 	bl	8000784 <setTimer1>
 setTimer2(100);
  8000546:	2064      	movs	r0, #100	; 0x64
@@ -675,8 +675,8 @@ int index_led = 0;
  8000556:	681b      	ldr	r3, [r3, #0]
  8000558:	2b01      	cmp	r3, #1
  800055a:	d112      	bne.n	8000582 <main+0x5e>
-		  setTimer1(50);
- 800055c:	2032      	movs	r0, #50	; 0x32
+		  setTimer1(25);
+ 800055c:	2019      	movs	r0, #25
  800055e:	f000 f911 	bl	8000784 <setTimer1>
 
 		  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
