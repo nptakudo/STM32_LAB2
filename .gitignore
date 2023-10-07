@@ -6,6 +6,8 @@
 *.ko
 *.obj
 *.elf
+*.xmi
+*.snap
 
 # Linker output
 *.ilk
