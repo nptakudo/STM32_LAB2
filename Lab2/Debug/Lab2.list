@@ -112,7 +112,7 @@ void clear7SEG(){
 
 08000184 <update7SEG>:
 
-  int led_buffer[4] = {1, 2, 3, 4};
+  int led_buffer[4] = {1,2, 3, 4};
   void update7SEG(int index){
  8000184:	b580      	push	{r7, lr}
  8000186:	b082      	sub	sp, #8
