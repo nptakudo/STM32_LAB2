@@ -97,10 +97,11 @@ HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE BEGIN WHILE */
 setTimer1(50);
 setTimer2(100);
+int tmp = 1;
 
 const int MAX_LED = 4;
 int index_led = 0;
-
+int led_buffer[4] = {1, 2, 3, 4};
 
   while (1)
   {
