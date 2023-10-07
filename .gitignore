@@ -13,6 +13,9 @@
 *.exp
 *.xmi
 *.snap
+*.log
+*.index
+*.history
 
 # Precompiled Headers
 *.gch
